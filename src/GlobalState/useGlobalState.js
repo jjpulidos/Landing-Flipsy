@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 const State = {
-    Screen: "inicio"
+    Screen: "problematica"
 }
 
 const useGlobalState = () => {
