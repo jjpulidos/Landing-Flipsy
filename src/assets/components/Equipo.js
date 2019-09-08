@@ -43,9 +43,9 @@ class Equipo extends React.Component{
             arrows: true
         };
         const consultores = [
-            {name: "Cristian Duque", img: "cristian", link: "#", description: "Student of systems and computer engineering at the Universidad Nacional de Colombia and active member of the Colombian Collegiate Programming League (CCPL)"},
             {name: "Cristian Mantilla", img: "mantilla", link: "#", description: "Systems and Computing Engineering student at the Universidad Nacional de Colombia and active partaker of the Colombian Collegiate Programming League (CCPL) and member of the Laboratorio de Investigación de Sistemas Inteligentes (LISI) UNAL"},
-            {name: "Jose Calderon", img: "jose", link: "https://www.linkedin.com/in/jose-calderon-b6b096136/", description: "Actualmente trabajo como desarrollador el la facultad de Ciencias Economicas de la Universidad donde utilizo diferentes tecnologias como base de datos (mysql), desarrollo web (laravel, vue, html, css, JavaScript) entre otras"},
+            {name: "Brayan Guevara", img: "brayan", link: "#", description: "Estudiante de pregrado en Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia, con avance del 56% de la carrera, con capacidad para programar en C++, Python y Java, conocimientos en bases de datos relacionales, HTML, CSS, JavaScript, y manejo de la API de Google Maps, Bootstrap y Phaser.Z"},
+            {name: "Jose Organista", img: "jose", link: "https://www.linkedin.com/in/jose-calderon-b6b096136/", description: "Actualmente trabajo como desarrollador el la facultad de Ciencias Economicas de la Universidad donde utilizo diferentes tecnologias como base de datos (mysql), desarrollo web (laravel, vue, html, css, JavaScript) entre otras"},
             {name: "Juan Pulido", img: "jota", link: "https://www.linkedin.com/in/jjpulidos/", description: "Systems and Computing Engineer Student, main interests are design and analysis of algorithms, data science, artificial intelligence and related fields like machine learning and deep learning."}
         ]
 
