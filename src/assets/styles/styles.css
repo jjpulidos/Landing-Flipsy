@@ -1,0 +1,38 @@
+/* Flipsy Styles */
+
+@import url('https://fonts.googleapis.com/css?family=Gayathri:100,400,700&display=swap');
+
+/* Header */
+
+.container-master-header{
+    background-color: #0063AE;
+    width: fit-content;
+    height: 100vh;
+    padding: 2vw 3vw;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+    grid-gap: 10vh;
+}
+.logo-header{
+    width: 8vw;
+}
+.text-menu-header{
+    color: #fff;
+    margin: 0;
+    font-family: 'Gayathri', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.container-option-header{
+    cursor: pointer;
+}
+.container-option-header:not(:last-child){
+    margin-bottom: 1.5rem;
+}
+.container-options-header{
+    height: fit-content;
+    text-align: end;
+}
