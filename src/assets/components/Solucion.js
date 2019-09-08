@@ -3,7 +3,7 @@ import '../styles/styles.css'
 import logo_flipsy from '../media/FlipsyColor.svg'
 import Video from '../media/Flipsy-Landing-2.mp4'
 
-const Problematica = () =>{
+const Solucion = () =>{
     return(
         <div className="container-master-problematica">
             <div className="container-left-problematica">
@@ -21,4 +21,4 @@ const Problematica = () =>{
     )
 }
 
-export default Problematica
+export default Solucion

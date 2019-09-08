@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Gayathri:100,400,700&display=swap');
 
+
+.container-master-web{
+    display: flex;
+}
+
+
 /* Header */
 
 .container-master-header{
@@ -25,6 +31,8 @@
     letter-spacing: 0.3rem;
     font-weight: 500;
     font-size: 0.8rem;
+    display: flex;
+    justify-content: flex-end;
 }
 .container-option-header{
     cursor: pointer;
@@ -35,4 +43,44 @@
 .container-options-header{
     height: fit-content;
     text-align: end;
+}
+
+
+/* Problematica Component */
+
+.container-master-problematica{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+.logo-flipsy{
+    width: 11vw;
+}
+.container-left-problematica{
+    padding: 3vh 4vw;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.text-problematica{
+    margin: 0;
+    color: #143256;
+    text-align: justify;
+    font-family: 'Gayathri', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.text-problematica:not(:last-child){
+margin-bottom: 1.5rem;
+}
+.container-down-info-problematica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.video-container{
+    width: 34rem;
+}
+.container-video{
+    display: flex;
+    padding: 3vh 4vw 3vh 0;
 }
