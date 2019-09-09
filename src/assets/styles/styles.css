@@ -415,3 +415,8 @@ h1{
     font-size: 2rem;
     margin-top: 1rem;
 }
+
+.equipo-title {
+    position: absolute;
+    margin: 2em 0 0 5em;
+}
