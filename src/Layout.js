@@ -7,6 +7,7 @@ import Header from './assets/components/Header'
 import Problematica from './assets/components/Problematica'
 import Solucion from './assets/components/Solucion'
 import Equipo from './assets/components/Equipo'
+import Scrum from './assets/components/Scrum'
 
 
 const Layout = () =>{
@@ -25,8 +26,10 @@ const Layout = () =>{
             state.Screen === "equipo" ? 
             <Equipo />
             :
-            <div/>
-            }
+            state.Screen === "scrum" ?            
+            <Scrum />
+            :        
+            console.log() }
         </div>
     )
 }

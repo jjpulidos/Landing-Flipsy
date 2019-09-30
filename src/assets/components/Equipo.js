@@ -44,10 +44,14 @@ class Equipo extends React.Component {
         };
         const consultores = [
             { name: "Cristian Mantilla", img: "mantilla", link: "#", description: "Systems and Computing Engineering student at the Universidad Nacional de Colombia and active partaker of the Colombian Collegiate Programming League (CCPL) and member of the Laboratorio de Investigación de Sistemas Inteligentes (LISI) UNAL" },
-            { name: "Brayan Guevara", img: "brayan", link: "#", description: "Estudiante de pregrado en Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia, con avance del 56% de la carrera, con capacidad para programar en C++, Python y Java, conocimientos en bases de datos relacionales, HTML, CSS, JavaScript, y manejo de la API de Google Maps, Bootstrap y Phaser.Z" },
+            { name: "Brayan Guevara", img: "brayan", link: "#", description: "Estudiante de pregrado en Ingeniería de Sistemas y Computación de la Universidad Nacional de Colombia, con avance del 56% de la carrera, con capacidad para programar en C++, Python y Java, conocimientos en bases de datos relacionales, HTML, CSS, JavaScript, y manejo de la API de Google Maps, Bootstrap y Phaser." },
             { name: "Jose Organista", img: "jose", link: "https://www.linkedin.com/in/jose-calderon-b6b096136/", description: "Actualmente trabajo como desarrollador el la facultad de Ciencias Economicas de la Universidad donde utilizo diferentes tecnologias como base de datos (mysql), desarrollo web (laravel, vue, html, css, JavaScript) entre otras" },
-            { name: "Juan Pulido", img: "jota", link: "https://www.linkedin.com/in/jjpulidos/", description: "Systems and Computing Engineer Student, main interests are design and analysis of algorithms, data science, artificial intelligence and related fields like machine learning and deep learning." }
+            { name: "Juan Pulido", img: "jota", link: "https://www.linkedin.com/in/jjpulidos/", description: "Systems and Computing Engineer Student, main interests are design and analysis of algorithms, data science, artificial intelligence and related fields like machine learning and deep learning." },
+	    { name: "Camilo Pulido", img: "camilo", link: "https://www.linkedin.com/in/oscar-camilo-pulido-peña-2318b5146/", description: "Systems and Computer Engineer student, Universidad Nacional de Colombia. Main interests are design and analysis of  Algorithms, Artificial Intelligence, Mathematics, Graph Theory and Computer Science related fields." },
+	    { name: "Maria Alejandra Robayo", img: "maria", link: "#", description: "Systems and Computer Engineer student, Universidad Nacional de Colombia. Interested in Research, Artificial Intelligence, Cryptography and Data Security, Computer’s Science, Algorithms and Data Structures." }
         ]
+
+	
 
         return (
             <React.Fragment>
@@ -85,18 +89,22 @@ class Equipo extends React.Component {
                     </Carousel>
                 </div>
                 {this.state.showperson ?
-                    <div className="container-master-single-person" id="person">
-                        <div className="container-master-photo-single-person">
-                            <div className="container-photo-single-person">
-                                <img src={require(`../media/equipo/${this.state.img}.jpg`)} alt={this.state.name} className="img-single-person" />
+                    (<div className={"white-container"}>
+                        <div><button className={"button-close"} onClick={()=>this.setState({showperson:false})}> X</button></div>
+                        <div className="container-master-single-person" id="person">
+                            <div className="container-master-photo-single-person">
+                                <div className="container-photo-single-person">
+                                    <img src={require(`../media/equipo/${this.state.img}.jpg`)} alt={this.state.name} className="img-single-person" />
+                                </div>
+                            </div>
+                            <div className="container-master-info-single-person">
+                                <p className="name-single-person">{this.state.name}</p>
+                                <p className="description-single-person">{this.state.description}</p>
+                                <a href={this.state.link} target="_blank" rel="noopener noreferrer"><Icon type="linkedin" className="icon-social-single-person" /></a>
                             </div>
                         </div>
-                        <div className="container-master-info-single-person">
-                            <p className="name-single-person">{this.state.name}</p>
-                            <p className="description-single-person">{this.state.description}</p>
-                            <a href={this.state.link} target="_blank" rel="noopener noreferrer"><Icon type="linkedin" className="icon-social-single-person" /></a>
-                        </div>
                     </div>
+                    )
                     :
                     <div />}
             </React.Fragment>

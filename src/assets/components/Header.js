@@ -8,7 +8,7 @@ const Header = () => {
 
     const { state, actions } = useContext(Context)
     const [style_, setStyle] = useState({
-        bold1: {}, bold2: {}, bold3: {}
+        bold1: {}, bold2: {}, bold3: {}, bold4: {}
     })
 
     const Change = Screen => {
@@ -19,7 +19,9 @@ const Header = () => {
                 ? setStyle({ bold2: { fontWeight: "bolder", color: "#00b7ff" } })
                 : Screen === "equipo"
                     ? setStyle({ bold3: { fontWeight: "bolder", color: "#00b7ff" } })
-                    : console.log()
+                    : Screen === "scrum" 
+                        ? setStyle({ bold4: { fontWeight: "bolder", color: "#00b7ff" } })
+                        :console.log()
         actions({ type: "setState", payload: { ...state, Screen: Screen } })
     }
 
@@ -38,6 +40,10 @@ const Header = () => {
                 <div className="container-option-header" onClick={() => Change("equipo")}>
                     <p style={style_.bold3} className={`text-menu-header`}>Equipo <Icon type="right" /></p>
                 </div>
+                <div className="container-option-header" onClick={() => Change("scrum")}>
+                    <p style={style_.bold3} className={`text-menu-header`}>Scrum Backlog <Icon type="right" /></p>
+                </div>
+
             </div>
         </div>
     )

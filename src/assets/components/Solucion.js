@@ -1,7 +1,8 @@
 import React from 'react'
 import '../styles/styles.css'
 import logo_flipsy from '../media/FlipsyColor.svg'
-import Video from '../media/Flipsy-Landing.mp4'
+
+const Video = 'https://firebasestorage.googleapis.com/v0/b/flipsy.appspot.com/o/Flipsy-Landing.mp4?alt=media&token=0f27f626-56fc-4341-b06d-ff39c0cee281'
 
 const Solucion = () => {
     return (
