@@ -9,6 +9,8 @@ import Solucion from './assets/components/Solucion'
 import Equipo from './assets/components/Equipo'
 import Scrum from './assets/components/Scrum'
 import UserHistories from './assets/components/UserHistories'
+import TechnicalTask from './assets/components/TechnicalTasks'
+import Repositorio from "./assets/components/Repositorio";
 
 
 const Layout = () =>{
@@ -32,6 +34,12 @@ const Layout = () =>{
             :
             state.Screen === "user-stories" ?
             <UserHistories />
+            :
+            state.Screen === "tech-task" ?
+            <TechnicalTask />
+            :
+            state.Screen === "repo" ?
+            <Repositorio />
             :
             console.log() }
         </div>
