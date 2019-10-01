@@ -43,6 +43,9 @@ const Header = () => {
                 <div className="container-option-header" onClick={() => Change("scrum")}>
                     <p style={style_.bold3} className={`text-menu-header`}>Scrum Backlog <Icon type="right" /></p>
                 </div>
+                <div className="container-option-header" onClick={() => Change("user-stories")}>
+                    <p style={style_.bold3} className={`text-menu-header`}>Historias de Usuario <Icon type="right" /></p>
+                </div>
 
             </div>
         </div>

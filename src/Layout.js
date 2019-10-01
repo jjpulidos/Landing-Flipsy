@@ -8,6 +8,7 @@ import Problematica from './assets/components/Problematica'
 import Solucion from './assets/components/Solucion'
 import Equipo from './assets/components/Equipo'
 import Scrum from './assets/components/Scrum'
+import UserHistories from './assets/components/UserHistories'
 
 
 const Layout = () =>{
@@ -17,18 +18,21 @@ const Layout = () =>{
     return(
         <div className="container-master-web">
             <Header />
-            {state.Screen === "problematica" ? 
+            {state.Screen === "problematica" ?
             <Problematica />
             :
-            state.Screen === "solucion" ? 
+            state.Screen === "solucion" ?
             <Solucion />
             :
-            state.Screen === "equipo" ? 
+            state.Screen === "equipo" ?
             <Equipo />
             :
-            state.Screen === "scrum" ?            
+            state.Screen === "scrum" ?
             <Scrum />
-            :        
+            :
+            state.Screen === "user-stories" ?
+            <UserHistories />
+            :
             console.log() }
         </div>
     )
