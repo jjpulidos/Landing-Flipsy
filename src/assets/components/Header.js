@@ -5,14 +5,11 @@ import { Icon } from 'antd'
 import Context from '../../GlobalState/context'
 
 const Header = () => {
-
     const { state, actions } = useContext(Context)
     const [style_, setStyle] = useState({
-        bold1: {}, bold2: {}, bold3: {}, bold4: {}
+        bold1: {}, bold2: {}, bold3: {}, bold4: {}, bold5: {}
     })
-
     const Change = Screen => {
-
         Screen === "problematica"
             ? setStyle({ bold1: { fontWeight: "bolder", color: "#00b7ff" } })
             : Screen === "solucion"
@@ -21,10 +18,11 @@ const Header = () => {
                     ? setStyle({ bold3: { fontWeight: "bolder", color: "#00b7ff" } })
                     : Screen === "scrum" 
                         ? setStyle({ bold4: { fontWeight: "bolder", color: "#00b7ff" } })
-                        :console.log()
+                        : Screen === "mockups"
+                            ? setStyle({ bold5: { fontWeight: "bolder", color: "#00b7ff" } })
+                             :console.log()
         actions({ type: "setState", payload: { ...state, Screen: Screen } })
     }
-
     return (
         <div className="container-master-header">
             <div>
@@ -41,7 +39,10 @@ const Header = () => {
                     <p style={style_.bold3} className={`text-menu-header`}>Equipo <Icon type="right" /></p>
                 </div>
                 <div className="container-option-header" onClick={() => Change("scrum")}>
-                    <p style={style_.bold3} className={`text-menu-header`}>Scrum Backlog <Icon type="right" /></p>
+                    <p style={style_.bold4} className={`text-menu-header`}>Scrum Backlog <Icon type="right" /></p>
+                </div>
+                <div className="container-option-header" onClick={() => Change("mockups")}>
+                    <p style={style_.bold5} className={`text-menu-header`}>Galería de mockups <Icon type="right" /></p>
                 </div>
 
             </div>

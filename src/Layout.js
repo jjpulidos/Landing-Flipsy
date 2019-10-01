@@ -8,6 +8,7 @@ import Problematica from './assets/components/Problematica'
 import Solucion from './assets/components/Solucion'
 import Equipo from './assets/components/Equipo'
 import Scrum from './assets/components/Scrum'
+import Mockups from "./assets/components/Mockups";
 
 
 const Layout = () =>{
@@ -28,7 +29,10 @@ const Layout = () =>{
             :
             state.Screen === "scrum" ?            
             <Scrum />
-            :        
+            :
+            state.Screen === "mockups" ?
+            <Mockups />
+            :
             console.log() }
         </div>
     )
