@@ -455,3 +455,10 @@ h1{
     position: absolute;
     margin: 2em 0 0 5em;
 }
+
+b {
+    color: #0063AE;
+}
+a {
+    font-size: 1.5em;
+}

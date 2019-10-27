@@ -11,13 +11,19 @@ const UserHistories = () => {
                 </div>
 
                 <div className="container-down-info-problematica">
+                    <h1 style={{color: "dodgerblue"}}> Sprint Backlog </h1>
+                    <p className="text-problematica"> Para el proyecto, etamos trabajando el Sprint Backlog en Trello, donde tenemos las siguientes pestañas:</p>
                     <ul style={{fontSize: "1.2em", fontWeight: "bolder", color: "black"}}>
-                        <li>Yo como usuario quiero poder crear, modificar y actualizar flashcards para tener   consignada información de temáticas de mi predilección.</li>
-                        <li>Yo como usuario quiero poder compartir flashcards con otros usuarios para dar a conocer mi contenido.</li>
-                        <li>Yo como usuario quiero recibir notificaciones como recordatorio para realizar la práctica de alguna temática.</li>
-                        <li>Yo como usuario quiero poder buscar públicamente flashcards de temáticas generales para acceder a contenido de mi interés.</li>
-                        <li>Yo como usuario quiero acceder a competencias ocasionales para mantener de manera didáctica la retención de los conceptos.</li>
+                        <li><b>User stories: </b> Ventana donde se pueden visualizar las historias de usuario.</li>
+                        <li><b>Things to do: </b> Tareas técnicas a realizar.</li>
+                        <li><b>Doing: </b> Tareas en proceso.</li>
+                        <li><b>Done: </b> Tareas hechas.</li>
+                        <li><b>Testing: </b> Tareas técnicas que están siendo probadas o estan en bugfix.</li>
+                        <li><b>Accepted: </b> Tareas que han sido aceptadas.</li>
                     </ul>
+                    <p>Cada tarea técnica tiene un id al comienzo: U#, donde # corresponde al número de historia de usuario que se está realizando, o bien, contienen [Non-functional] que quiere decir que es un requerimiento no funcional del proyecto.</p>
+
+                    <a href="https://trello.com/b/KyvmLu00/flipsy"> https://trello.com/b/KyvmLu00/flipsy </a>
                 </div>
             </div>
         </div>

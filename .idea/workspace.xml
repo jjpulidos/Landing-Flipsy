@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3ee85bd5-88e9-4906-8f93-9e8073ab430d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/components/Equipo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/Equipo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/components/UserHistories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/UserHistories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +27,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,6 +55,7 @@
       <workItem from="1568147026522" duration="5130000" />
       <workItem from="1568415818393" duration="58000" />
       <workItem from="1569902628172" duration="3182000" />
+      <workItem from="1572145028273" duration="1631000" />
     </task>
     <servers />
   </component>

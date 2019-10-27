@@ -45,7 +45,7 @@ const Header = () => {
                     <p style={style_.bold5} className={`text-menu-header`}>Galería de mockups <Icon type="right" /></p>
                 </div>
                 <div className="container-option-header" onClick={() => Change("user-stories")}>
-                    <p style={style_.bold3} className={`text-menu-header`}>Historias de Usuario <Icon type="right" /></p>
+                    <p style={style_.bold3} className={`text-menu-header`}>Sprint Backlog <Icon type="right" /></p>
                 </div>
                 <div className="container-option-header" onClick={() => Change("tech-task")}>
                     <p style={style_.bold3} className={`text-menu-header`}>Tareas técnicas<Icon type="right" /></p>
