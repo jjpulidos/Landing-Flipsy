@@ -35,16 +35,15 @@ const Layout = () =>{
             :
             state.Screen === "mockups" ?
             <Mockups />
-
             :
             state.Screen === "user-stories" ?
             <UserHistories />
             :
-            state.Screen === "tech-task" ?
-            <TechnicalTask />
-            :
             state.Screen === "repo" ?
             <Repositorio />
+            :
+            state.Screen === "tech-task" ?
+                <TechnicalTask />
             :
             console.log() }
         </div>

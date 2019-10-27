@@ -13,14 +13,21 @@ const Header = () => {
         Screen === "problematica"
             ? setStyle({ bold1: { fontWeight: "bolder", color: "#00b7ff" } })
             : Screen === "solucion"
-                ? setStyle({ bold2: { fontWeight: "bolder", color: "#00b7ff" } })
-                : Screen === "equipo"
-                    ? setStyle({ bold3: { fontWeight: "bolder", color: "#00b7ff" } })
-                    : Screen === "scrum" 
-                        ? setStyle({ bold4: { fontWeight: "bolder", color: "#00b7ff" } })
-                        : Screen === "mockups"
-                            ? setStyle({ bold5: { fontWeight: "bolder", color: "#00b7ff" } })
-                             :console.log()
+            ? setStyle({ bold2: { fontWeight: "bolder", color: "#00b7ff" } })
+            : Screen === "equipo"
+                ? setStyle({ bold3: { fontWeight: "bolder", color: "#00b7ff" } })
+                : Screen === "scrum"
+                    ? setStyle({ bold4: { fontWeight: "bolder", color: "#00b7ff" } })
+                    : Screen === "mockups"
+                        ? setStyle({ bold5: { fontWeight: "bolder", color: "#00b7ff" } })
+                        : Screen === "user-stories"
+                            ? setStyle({ bold6: { fontWeight: "bolder", color: "#00b7ff" } })
+                            : Screen === "repo"
+                                ? setStyle({ bold7: { fontWeight: "bolder", color: "#00b7ff" } })
+                                : Screen === "tech-task"
+                                    ? setStyle({ bold8: { fontWeight: "bolder", color: "#00b7ff" } })
+
+                        :console.log()
         actions({ type: "setState", payload: { ...state, Screen: Screen } })
     }
     return (
@@ -45,13 +52,13 @@ const Header = () => {
                     <p style={style_.bold5} className={`text-menu-header`}>Galería de mockups <Icon type="right" /></p>
                 </div>
                 <div className="container-option-header" onClick={() => Change("user-stories")}>
-                    <p style={style_.bold3} className={`text-menu-header`}>Sprint Backlog <Icon type="right" /></p>
-                </div>
-                <div className="container-option-header" onClick={() => Change("tech-task")}>
-                    <p style={style_.bold3} className={`text-menu-header`}>Tareas técnicas<Icon type="right" /></p>
+                    <p style={style_.bold6} className={`text-menu-header`}>Sprint Backlog <Icon type="right" /></p>
                 </div>
                 <div className="container-option-header" onClick={() => Change("repo")}>
-                    <p style={style_.bold3} className={`text-menu-header`}>Repositorio<Icon type="right" /></p>
+                    <p style={style_.bold7} className={`text-menu-header`}>Repositorio<Icon type="right" /></p>
+                </div>
+                <div className="container-option-header" onClick={() => Change("tech-task")}>
+                    <p style={style_.bold8} className={`text-menu-header`}>Enlaces adicionales<Icon type="right" /></p>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ const UserHistories = () => {
                 </div>
 
                 <div className="container-down-info-problematica">
-                    <h1 style={{color: "dodgerblue"}}> Sprint Backlog </h1>
+                    <h1> Sprint Backlog </h1>
                     <p className="text-problematica"> Para el proyecto, etamos trabajando el Sprint Backlog en Trello, donde tenemos las siguientes pestañas:</p>
                     <ul style={{fontSize: "1.2em", fontWeight: "bolder", color: "black"}}>
                         <li><b>User stories: </b> Ventana donde se pueden visualizar las historias de usuario.</li>

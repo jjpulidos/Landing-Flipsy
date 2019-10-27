@@ -11,14 +11,16 @@
 /* Header */
 
 .container-master-header{
+    z-index: 100;
     background-color: #0063AE;
-    width: fit-content;
+    width: 25%;
     height: 100vh;
     padding: 2vw 3vw;
     display: grid;
     grid-template-rows: auto 1fr;
     justify-items: center;
     grid-gap: 10vh;
+    position: fixed;
 }
 .logo-header{
     width: 8vw;
@@ -52,7 +54,9 @@
 .container-master-problematica{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
+    width: 75%;
+    left: 25%;
+    position: absolute;
 }
 .logo-flipsy{
     width: 11vw;
@@ -87,7 +91,9 @@ margin-bottom: 1.5rem;
     padding: 3vh 4vw 3vh 0;
 }
 .container-equipo{
-    width: 100%;
+    width: 75%;
+    left: 25%;
+    position: absolute;
 }
 .left-arrow-carousel {
     position: absolute;
@@ -156,6 +162,9 @@ margin-bottom: 1.5rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
+    width: 75%;
+    left: 25%;
+    position: absolute;
 }
 
 
@@ -461,4 +470,8 @@ b {
 }
 a {
     font-size: 1.5em;
+}
+
+h1, h2{
+    color: dodgerblue !important;
 }

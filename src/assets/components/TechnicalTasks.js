@@ -11,18 +11,20 @@ const TechnicalTasks = () => {
                 </div>
 
                 <div className="container-down-info-problematica">
-                    <ul style={{fontSize: "1.2em", fontWeight: "bolder", color: "black"}}>
-                        <li>Modelación de la base de datos. <div style={{ color: 'red' }}> Back </div> Juan Pulido  </li>
-                        <li>Autenticación con cognito AWS. <div style={{ color: 'red' }}> Back </div> Cristian Mantilla </li>
-                        <li>Modelo inicial del stack. <div style={{ color: 'red' }}> Back </div> Camilo Pulido </li>
-                        <li>Despliegue de instancias en AWS. <div style={{ color: 'red' }}> Back </div> Juan Pulido </li>
-                        <li>Conexión Neo4J con esquema GraphQL. <div style={{ color: 'red' }}> Back </div> Camilo Pulido </li>
-                        <li>Desarrollo pantallas de Login. <div style={{ color: 'blue' }}> Front </div> Daniel Organista </li>
-                        <li>Desarrollo pantallas de Signup. <div style={{ color: 'blue' }}> Front </div> Brayan Guevara  </li>
-                        <li>Desarrollo pantalla Menu Desplegable. <div style={{ color: 'blue' }}> Front </div> Daniel Organista </li>
-                        <li>Desarrollo pantalla Dashboard. <div style={{ color: 'blue' }}> Front </div> Maria Robayo </li>
-                        <li>Desarrollo pantalla Confirmación de Código. <div style={{ color: 'blue' }}> Front </div> Brayan Guevara </li>
+                    <h1>Iteración 1</h1>
+
+                    <ul>
+                        <li><b>Funcionalidad iteración 1: </b> <a href="https://drive.google.com/file/d/1-EmrDmkvJvk05UKfF1ZHdmMstC2A0skd/view"> Video iteración 1 </a>  </li>
+                        <li><b>Flipsy MVP: </b> <a href="https://drive.google.com/file/d/1-7n-dd84NvYUm4pZKxv7Ilry730W9D-w/view"> Video MVP </a>  </li>
                     </ul>
+
+
+                    <h1>Iteración 2</h1>
+                    <ul>
+                        <li><b>Funcionalidad iteración 2: </b> <a href="https://drive.google.com/file/d/1-EmrDmkvJvk05UKfF1ZHdmMstC2A0skd/view"> Video iteración 2  </a> </li>
+                        <li><b> Progreso de requerimiento no funcional: </b> <a href="https://drive.google.com/open?id=11vxMGWyDAlXByBgFo86avXA3IgMN7Kq2">Requerimiento no funcional</a></li>
+                    </ul>
+
                 </div>
             </div>
         </div>

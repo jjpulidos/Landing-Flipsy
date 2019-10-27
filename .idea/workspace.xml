@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee85bd5-88e9-4906-8f93-9e8073ab430d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebaserc" beforeDir="false" afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/components/Equipo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/Equipo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/components/Repositorio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/Repositorio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/components/TechnicalTasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/TechnicalTasks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/components/UserHistories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/components/UserHistories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/styles.css" afterDir="false" />
     </list>
@@ -18,7 +23,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QZM6wmKlW7FxtliAVlZCZMggqz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -55,7 +64,7 @@
       <workItem from="1568147026522" duration="5130000" />
       <workItem from="1568415818393" duration="58000" />
       <workItem from="1569902628172" duration="3182000" />
-      <workItem from="1572145028273" duration="1631000" />
+      <workItem from="1572145028273" duration="7550000" />
     </task>
     <servers />
   </component>
@@ -74,5 +83,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
