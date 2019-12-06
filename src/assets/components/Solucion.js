@@ -13,7 +13,7 @@ const Solucion = () => {
                 </div>
                 <div className="container-down-info-problematica">
                     <p className="text-problematica">
-                        Flipsy pretende ser una solución de rápido acceso de flashcards para
+                        Flipsy será solución de rápido acceso de flashcards diseñada para
                         estudiar temáticas de interés, así cualquiera puede revisar y conservar
                         los conceptos por más tiempo teniendo en cuenta la curva del olvido mediante
                         diversas dinámicas como notificaciones de práctica y competencias ocasionales, así como también compartir sus grupos de flashcards con más usuarios.</p>
